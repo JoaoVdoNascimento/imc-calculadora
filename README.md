@@ -1,50 +1,39 @@
-# Welcome to your Expo app 👋
+# 📱 Calculadora de IMC
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Este é um app simples feito em **React Native** para calcular o IMC (Índice de Massa Corporal) com base no peso e altura informados pelo usuário.
 
-## Get started
+## ✅ Funcionalidades
 
-1. Install dependencies
+- Campo para inserir peso (kg)
+- Campo para inserir altura (m)
+- Cálculo do IMC ao clicar no botão
+- Exibe a classificação do IMC
+- Validação de entrada com mensagens de erro
 
-   ```bash
-   npm install
-   ```
+## 📐 Fórmula do IMC
 
-2. Start the app
+IMC = peso / (altura * altura)
 
-   ```bash
-   npx expo start
-   ```
+## 🧾 Classificação
 
-In the output, you'll find options to open the app in a
+- Abaixo de 18.5 → Abaixo do normal  
+- 18.6 a 24.9 → Normal  
+- 25.0 a 29.9 → Sobrepeso  
+- 30.0 a 34.9 → Obesidade grau I  
+- 35.0 a 39.9 → Obesidade grau II  
+- 40.0 ou mais → Obesidade grau III
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## ▶️ Como usar
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+1. Insira seu peso em kg (ex: `70`)
+2. Insira sua altura em metros (ex: `1.75`)
+3. Pressione **"Calcular IMC"**
+4. O resultado aparecerá abaixo com sua classificação
 
-## Get a fresh project
+## 🛠️ Tecnologias
 
-When you're ready, run:
+- React Native
+- TypeScript
 
-```bash
-npm run reset-project
-```
+---
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
